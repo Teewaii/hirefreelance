@@ -25,7 +25,7 @@ function Totop() {
 
   return (
   
-    <div onClick={scrollTop} className={scroller?"scroll fixed bottom-[5%] right-8 p-2 bg-primary cursor-pointer rounded-full  ":" hidden"}>
+    <div onClick={scrollTop} className={scroller?"scroll fixed bottom-[5%] right-8 p-2 bg-primary cursor-pointer rounded-full z-[300] border-2 border-opacity-30 border-white":" hidden"}>
         <ChevronDoubleUpIcon
         className='w-4 fill-white'
         />

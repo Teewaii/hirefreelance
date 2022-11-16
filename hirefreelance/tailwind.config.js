@@ -28,6 +28,8 @@ module.exports = {
         'primary': '#0056D6',
         'body': '#5B5B5B',
         'heading': '#2C3847',
+        'location': '#343951',
+        'grad': '#F6FBFD',
       },
       // screens: {
       //   '3xl': '1700px',
@@ -37,8 +39,10 @@ module.exports = {
         'mobHero': "url('/img/mobHero.svg')",
         'journey': "url('/img/journey_watermark.svg')",
         'footer_wmk': "url('/img/footer_watermark.svg')",
-      }
+      },
+      
+    
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }

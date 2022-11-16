@@ -2,7 +2,7 @@ import React from 'react'
 
 function Journey() {
     return (
-        <section className='container py-8 h-screen lg:h-[60vh] '>
+        <section className='container py-8 h-fit '>
             <div className="journey-wrapper bg-journey bg-top bg-cover bg-no-repeat rounded-xl py-[70px]  relative overflow-hidden after:absolute after:bg-primary after:top-0 after:bottom-0 after:left-0 after:right-0 after:z-[-1]
             flex flex-col items-center text-white shadow-xl
             ">

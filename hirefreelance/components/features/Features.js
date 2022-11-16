@@ -8,8 +8,9 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
 function Features() {
     return (
-        <section id='' className="features min-h-screen md:h-[40vh] xl:min-h-[70vh] border flex items-center">
-            <div className='flex flex-col items-center gap-8 py-20 lg:py-14 container bg-slate-400'>
+        <section id='' className="features h-fit border flex items-center">
+        {/* <section id='' className="features min-h-screen md:h-[40vh] xl:min-h-[70vh] border flex items-center"> */}
+            <div className='flex flex-col items-center gap-8 py-20 lg:py-14 container'>
 
                 <div className="top flex flex-col items-center text-center ">
                     <h1 className='text-3xl lg:text-4xl text-heading mb-4 '>Our Features</h1>
