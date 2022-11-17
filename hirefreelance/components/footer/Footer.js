@@ -21,7 +21,9 @@ function Footer() {
                         />
                         <p className='text-white text-[0.8rem] text-left md:w-[70%] '>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                     </div>
-                    <div className="links  grid grid-cols-2 space-y-6 md:space-y-0 md:flex items-start md:gap-[100px] lg:gap-[180px] ">                        
+                    <div className="links  space-y-6 md:space-y-0 flex flex-col lg:flex-row items-start md:gap-[70px] lg:gap-[100px] ">                        
+                      
+                      <div className="lis flex justify-between w-[100%] md:gap-[70px] lg:gap-[100px]">
                         <ul className='links space-y-[1px] md:space-y-4'>
                         <h1 className='text-white text-md font-bold mb-2'>Links</h1>
                             <li className='text-white text-sm'>Overons</li>
@@ -29,20 +31,20 @@ function Footer() {
                             <li className='text-white text-sm'>Counters</li>
                             <li className='text-white text-sm'>Contact</li>
                         </ul>
-                               
-                        
+                                               
                         <ul className="company space-y-[1px] lg:space-y-4">
                         <h1 className='text-white text-md font-bold mb-2'>Company</h1>
                             <li className='text-white text-sm'>Terms & Conditions</li>
                             <li className='text-white text-sm'>Privacy Policy</li>
                             <li className='text-white text-sm'>Contact</li>
-                        </ul>
-                   
+                        </ul>                   
+                        </div>
+                        
                         <ul className="intouch space-y-[1px] lg:space-y-4">
                         <h1 className='text-white text-md font-bold mb-2'>Get in touch</h1>
-                            <li className='text-white text-sm'>Terms & Conditions</li>
-                            <li className='text-white text-sm'>Privacy Policy</li>
-                            <li className='text-white text-sm'>Contact</li>
+                            <li className='text-white text-sm'>Crechterwoord K12 182 DK Alknjkcb</li>
+                            <li className='text-white text-sm'>085-132567</li>
+                            <li className='text-white text-sm'>info@lobar.net</li>
                         </ul>
                         </div>  
                 </div>

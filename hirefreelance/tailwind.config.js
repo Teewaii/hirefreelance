@@ -18,8 +18,8 @@ module.exports = {
           DEFAULT: '1rem',
           sm: '2rem',
           lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          xl: '8rem',
+          
         },
         center: true,
       },
@@ -29,7 +29,7 @@ module.exports = {
         'body': '#5B5B5B',
         'heading': '#2C3847',
         'location': '#343951',
-        'grad': '#F6FBFD',
+        'grad': '#e1f1f7',
       },
       // screens: {
       //   '3xl': '1700px',
@@ -39,10 +39,12 @@ module.exports = {
         'mobHero': "url('/img/mobHero.svg')",
         'journey': "url('/img/journey_watermark.svg')",
         'footer_wmk': "url('/img/footer_watermark.svg')",
+        'service_wmk': "url('/img/serviceWatermark.svg')",
       },
       
     
     },
+    
   },
   plugins: [require('tailwind-scrollbar-hide')],
 }

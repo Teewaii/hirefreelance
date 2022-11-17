@@ -13,6 +13,7 @@ import Footer from '../components/footer/Footer';
 import ScrollToTop from "react-scroll-to-top";
 import Totop from '../components/btn/Totop';
 import Agents from '../components/agents/Agents';
+import Services from '../components/services/Services';
 
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <Values />
       <Journey />
       <Features />
+      <Services/>
       <Agents/>
       <Footer />
       {/* <ScrollToTop smooth /> */}
