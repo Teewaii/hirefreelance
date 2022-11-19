@@ -14,6 +14,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Totop from '../components/btn/Totop';
 import Agents from '../components/agents/Agents';
 import Services from '../components/services/Services';
+import Testimonials from '../components/testimonials/Testimonials';
 
 
 export default function Home() {
@@ -45,12 +46,13 @@ export default function Home() {
       <Values />
       <Journey />
       <Features />
-      <Services/>
-      <Agents/>
+      <Services />
+      <Testimonials />
+      <Agents />
       <Footer />
       {/* <ScrollToTop smooth /> */}
-      <Totop/>
-     
+      <Totop />
+
       {!toggle && <div onClick={() => setToggle(true)} className="overlay absolute top-0 bottom-0 left-0 right-0 bg-primary opacity-60  lg:hidden"></div>}
 
     </div>

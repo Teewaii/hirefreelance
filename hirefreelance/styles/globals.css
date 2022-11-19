@@ -14,6 +14,7 @@
     li {
         @apply font-medium text-body text-[15px];
     }
+
     /* button {
         @apply bg-primary text-white py-2 px-8 rounded-full ;
     }
@@ -30,5 +31,4 @@
 
 html {
     scroll-behavior: smooth;
-  }
-
+}

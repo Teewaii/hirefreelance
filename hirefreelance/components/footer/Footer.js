@@ -12,43 +12,43 @@ function Footer() {
                     ready took these courses!</h1>
                 <Appointment />
 
-                <div className="footer_links space-y-8 md:space-y-0 md:flex justify-between w-[100%]  gap-x-4 gap-y-6 container  ">
-                
-                <div className="logo flex flex-col  items-start space-y-4  ">
+                <div className="footer_links space-y-8 md:space-y-0 md:flex justify-between w-[100%]  gap-x-4 lg:gap-x-[70px] gap-y-6   ">
+
+                    <div className="logo flex flex-col  items-start space-y-4  ">
                         <Image
                             src={logoW}
                             alt='logo'
                         />
                         <p className='text-white text-[0.8rem] text-left md:w-[70%] '>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                     </div>
-                    <div className="links  space-y-6 md:space-y-0 flex flex-col lg:flex-row items-start md:gap-[70px] lg:gap-[100px] ">                        
-                      
-                      <div className="lis flex justify-between w-[100%] md:gap-[70px] lg:gap-[100px]">
-                        <ul className='links space-y-[1px] md:space-y-4'>
-                        <h1 className='text-white text-md font-bold mb-2'>Links</h1>
-                            <li className='text-white text-sm'>Overons</li>
-                            <li className='text-white text-sm'>Social Media</li>
-                            <li className='text-white text-sm'>Counters</li>
-                            <li className='text-white text-sm'>Contact</li>
-                        </ul>
-                                               
-                        <ul className="company space-y-[1px] lg:space-y-4">
-                        <h1 className='text-white text-md font-bold mb-2'>Company</h1>
-                            <li className='text-white text-sm'>Terms & Conditions</li>
-                            <li className='text-white text-sm'>Privacy Policy</li>
-                            <li className='text-white text-sm'>Contact</li>
-                        </ul>                   
+                    <div className="links  space-y-6 md:space-y-0 flex flex-col lg:flex-row items-start md:gap-[50px] ">
+
+                        <div className="lis flex justify-between w-[100%] md:gap-[20px] ">
+                            <ul className='links space-y-[1px] md:space-y-4'>
+                                <h1 className='text-white text-md font-bold mb-2'>Links</h1>
+                                <li className='text-white text-[0.8rem]'>Overons</li>
+                                <li className='text-white text-[0.8rem]'>Social Media</li>
+                                <li className='text-white text-[0.8rem]'>Counters</li>
+                                <li className='text-white text-[0.8rem]'>Contact</li>
+                            </ul>
+
+                            <ul className="company space-y-[1px] lg:space-y-4">
+                                <h1 className='text-white text-md font-bold mb-2'>Company</h1>
+                                <li className='text-white text-[0.8rem]'>Terms & Conditions</li>
+                                <li className='text-white text-[0.8rem]'>Privacy Policy</li>
+                                <li className='text-white text-[0.8rem]'>Contact</li>
+                            </ul>
                         </div>
-                        
+
                         <ul className="intouch space-y-[1px] lg:space-y-4">
-                        <h1 className='text-white text-md font-bold mb-2'>Get in touch</h1>
-                            <li className='text-white text-sm'>Crechterwoord K12 182 DK Alknjkcb</li>
-                            <li className='text-white text-sm'>085-132567</li>
-                            <li className='text-white text-sm'>info@lobar.net</li>
+                            <h1 className='text-white text-md font-bold mb-2'>Get in touch</h1>
+                            <li className='text-white text-[0.8rem]'>Crechterwoord K12 182 DK Alknjkcb</li>
+                            <li className='text-white text-[0.8rem]'>085-132567</li>
+                            <li className='text-white text-[0.8rem]'>info@lobar.net</li>
                         </ul>
-                        </div>  
+                    </div>
                 </div>
-                
+
             </div>
             <p className='text-white text-[0.7rem] text-center'>© 2021 Developed by <a className='cursor-pointer underline' href="https://github.com/Teewaii/hirefreelance.git" target='blank'>Taiye Ajimati</a> & <br />Designed by ar-shakir. All rights reserved</p>
         </section>

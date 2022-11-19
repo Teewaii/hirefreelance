@@ -19,7 +19,7 @@ module.exports = {
           sm: '2rem',
           lg: '4rem',
           xl: '8rem',
-          
+
         },
         center: true,
       },
@@ -29,6 +29,7 @@ module.exports = {
         'body': '#5B5B5B',
         'heading': '#2C3847',
         'location': '#343951',
+        'title': '#9598A0',
         'grad': '#e1f1f7',
       },
       // screens: {
@@ -41,10 +42,10 @@ module.exports = {
         'footer_wmk': "url('/img/footer_watermark.svg')",
         'service_wmk': "url('/img/serviceWatermark.svg')",
       },
-      
-    
+
+
     },
-    
+
   },
   plugins: [require('tailwind-scrollbar-hide')],
 }
