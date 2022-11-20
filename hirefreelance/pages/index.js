@@ -15,6 +15,7 @@ import Totop from '../components/btn/Totop';
 import Agents from '../components/agents/Agents';
 import Services from '../components/services/Services';
 import Testimonials from '../components/testimonials/Testimonials';
+import Projects from '../components/projects/Projects';
 
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
       <Journey />
       <Features />
       <Services />
+      <Projects />
       <Testimonials />
       <Agents />
       <Footer />

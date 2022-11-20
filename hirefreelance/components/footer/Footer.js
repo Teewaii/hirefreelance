@@ -5,7 +5,8 @@ import logoW from '../../public/img/LogoWhite.svg'
 
 function Footer() {
     return (
-        <section className="h-[fit]    flex flex-col justify-between footer bg-primary py-6  lg:py-[50px]  relative  after:absolute after:bg-right-top after:bg-fit after:bg-no-repeat after:bg-footer_wmk after:top-0 after:bottom-0 after:left-0 after:right-0 ">
+        <section className="h-[fit]    flex flex-col justify-between footer bg-primary py-6  lg:py-[50px]  relative  after:absolute after:bg-right-top after:bg-fit after:bg-no-repeat after:bg-footer_wmk after:top-0 after:bottom-0 
+        after:left-0 after:right-0  ">
             {/* footer bg-footer_wmk bg-right-top bg-fit bg-no-repeat  py-[50px]  relative  after:absolute after:bg-primary after:top-0 after:bottom-0 after:left-0 after:right-0 after:z-[-1] h-[75vh] */}
             <div className='footer-wrapper container flex flex-col  items-center py-8 space-y-16 lg:space-y-[90px] relative z-[4] mb-10   '>
                 <h1 className='text-white text-2xl lg:text-4xl lg:max-w-[450px] text-center font-normal'> People who are
