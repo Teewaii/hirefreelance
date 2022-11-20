@@ -16,7 +16,7 @@ function Testimonials() {
     return (
         <section className="testimonials h-fit pt-[100px] pb-[200px]  flex flex-col items-center">
             <div className="testimonials-wrapper  container flex flex-col items-center text-center ">
-                <div className="title flex flex-col items-center mb-12">
+                <div className="title flex flex-col items-center mb-12 ">
                     <h1 className='text-2xl sm:text-3xl lg:text-4xl text-heading mb-2 lg:mb-6'>What our Customers say</h1>
                     <p className='text-[0.8rem] min-w-[200px] '>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks.</p>
                 </div>
@@ -50,7 +50,7 @@ function Testimonials() {
                 {testimonies.map(user=>(
 
                
-                <SwiperSlide key={user.id}> <div className="testimonial-container bg-white flex flex-col items-center text-center w-[100%] shadow-xl  px-[50px] py-8 md:py-10 rounded-md mb-[40px] ">
+                <SwiperSlide key={user.id}> <div className="testimonial-container border bg-white flex flex-col items-center text-center w-[100%] shadow-xl  px-[50px] py-8 md:py-10 rounded-md mb-[40px] ">
                     <Image className='w-16 mb-4 rounded-full'
                         src={user.shot} 
                         width={100} 
