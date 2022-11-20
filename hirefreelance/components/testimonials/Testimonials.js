@@ -54,7 +54,8 @@ function Testimonials() {
                     <Image className='w-16 mb-4 rounded-full'
                         src={user.shot} 
                         width={100} 
-                        height={100} />
+                        height={100}
+                        alt='headshot' />
                     <h1 className='text-lg'>{user.username}</h1>
                     <p className='text-sm mb-3 text-title'>{user.title}</p>
                     <p className='text-[0.8rem] text-title lg:max-w-[380px] '>“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.”</p>
