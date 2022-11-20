@@ -19,6 +19,7 @@ module.exports = {
           sm: '2rem',
           lg: '4rem',
           xl: '8rem',
+          '3xl': '12rem',
 
         },
         center: true,
