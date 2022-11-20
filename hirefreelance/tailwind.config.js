@@ -32,9 +32,9 @@ module.exports = {
         'title': '#9598A0',
         'grad': '#e1f1f7',
       },
-      // screens: {
-      //   '3xl': '1700px',
-      // },
+      screens: {
+        '3xl': '1700px',
+      },
       backgroundImage: {
         'dekstopHero': "url('/img/desktopHero.svg')",
         'mobHero': "url('/img/mobHero.svg')",
