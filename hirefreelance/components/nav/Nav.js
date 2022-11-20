@@ -11,27 +11,27 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 
 
 
-function Nav({toggle,OpenMenu}) {
+function Nav({ toggle, OpenMenu, setToggle }) {
 
     return (
-       <nav className={toggle?' bg-primary hidden lg:flex h-screen lg:h-fit py-4 absolute  left-0 right-[35%] top-0 lg:right-0 lg:top-6 lg:bg-transparent lg:py-0  ':'z-[200] bg-primary h-screen lg:h-fit py-4 absolute  left-0 right-[35%] top-0 lg:right-0 lg:top-6 lg:bg-transparent lg:py-0 transition-all duration-300 ease-in-out '}> 
+        <nav className={toggle ? ' bg-primary hidden lg:flex h-screen lg:h-fit py-4 absolute  left-0 right-[35%] top-0 lg:right-0 lg:top-6 lg:bg-transparent lg:py-0  ' : 'z-[200] bg-primary h-screen lg:h-fit py-4 absolute  left-0 right-[35%] top-0 lg:right-0 lg:top-6 lg:bg-transparent lg:py-0 transition-all duration-300 ease-in-out '}>
             <div className="navWrapper  space-y-16 container lg:flex lg:items-center lg:justify-between lg:space-y-0 ">
                 <div className="logo  w-fit ">
-                   <Image src={logo} alt='logo'
+                    <Image src={logo} alt='logo'
                     />
                     {/* <Link href='/'><Image src={logo} alt='logo'
                     /></Link> */}
                 </div>
                 <div className="links ">
                     <ul className='space-y-3  lg:flex lg:space-x-[36px] lg:space-y-0 items-center'>
-                        <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 '>
-                            <Link activeClass="active" to="services" spy={true} smooth={true} offset={0} duration={500} >Services</Link>
+                        <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 ' >
+                            <Link onClick={() => setToggle(true)} activeClass="active" to="services" spy={true} smooth={true} offset={0} duration={300} >Services</Link>
                         </li>
                         <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 '>
-                            <Link activeClass="active" to="values" spy={true} smooth={true} offset={0} duration={500}>About us</Link>
+                            <Link onClick={() => setToggle(true)} activeClass="active" to="values" spy={true} smooth={true} offset={0} duration={300}>About us</Link>
                         </li>
                         <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 '>
-                            <Link activeClass="active" to="features" spy={true} smooth={true} offset={0} duration={500}>Blog</Link>
+                            <Link onClick={() => setToggle(true)} activeClass="active" to="features" spy={true} smooth={true} offset={0} duration={300}>Blog</Link>
                         </li>
 
                     </ul>

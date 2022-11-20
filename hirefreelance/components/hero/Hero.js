@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div id='hero' className="flex  lg:justify-center  items-center lg:items-center   relative hero-wrapper bg-mobHero lg:bg-dekstopHero bg-no-repeat  bg-top bg-cover lg:bg-top lg:bg-cover h-screen z-[-1] ">
       <div className=" flex justify-center   py-6 px-2   bg-white
-        bg-opacity-80 w-[90%]  md:w-[60%] absolute top-[50%] left-4  md:left-12 lg:relative lg:top-0 lg:left-0 lg:w-[100%] p-2 lg:p-0 rounded-lg lg:bg-transparent ">
+        bg-opacity-80 w-[90%]  md:w-[60%] absolute top-[42%] left-4  md:left-12 lg:relative lg:top-0 lg:left-0 lg:w-[100%] p-2 lg:p-0 rounded-lg lg:bg-transparent ">
 
         <div className="desc container  "><motion.h1
           initial={{ y: -30, opacity: 0.5 }}

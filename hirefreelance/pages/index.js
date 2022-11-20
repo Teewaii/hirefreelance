@@ -36,7 +36,8 @@ export default function Home() {
 
       <Nav
         toggle={toggle}
-        OpenMenu={OpenMenu} />
+        OpenMenu={OpenMenu}
+        setToggle={setToggle} />
       <div className="mob">
         <Hamburger
           toggle={toggle}
