@@ -4,6 +4,7 @@ import projectlist from './projectList';
 import { ChevronLeftIcon } from '@heroicons/react/24/solid'
 import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
+//Functions to initiate scroll events via button click when overflow occurrs
 function Projects() {
     const scrol =useRef(null);
     function scrollLeft (){
@@ -13,15 +14,7 @@ function Projects() {
         scrol.current.scrollLeft +=200;
     }
     
-    // useEffect(()=>{
-       
-    //          scrol.current.scrollLeft += 80; 
-        
-    // },[])
-   
-    // function Scrollleft(){
-    //     this.refs.scroller ?(this.refs.scroller.scrollLeft += 80):null; 
-    // }
+
     return (
         <section id="projects" className="projects w-screen py-10 lg:py-[80px]">
             <div className="projects-wrapper  ">
