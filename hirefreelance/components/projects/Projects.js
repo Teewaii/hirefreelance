@@ -1,7 +1,27 @@
-import Image from "next/image";
-import projectlist from './projectList'
+import Image from "next/legacy/image";
+import { useRef } from "react";
+import projectlist from './projectList';
+import { ChevronLeftIcon } from '@heroicons/react/24/solid'
+import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
 function Projects() {
+    const scrol =useRef(null);
+    function scrollLeft (){
+        scrol.current.scrollLeft -=200;
+    }
+    function scrollRight (){
+        scrol.current.scrollLeft +=200;
+    }
+    
+    // useEffect(()=>{
+       
+    //          scrol.current.scrollLeft += 80; 
+        
+    // },[])
+   
+    // function Scrollleft(){
+    //     this.refs.scroller ?(this.refs.scroller.scrollLeft += 80):null; 
+    // }
     return (
         <section className="projects w-screen">
             <div className="projects-wrapper  ">
@@ -22,19 +42,25 @@ function Projects() {
                 </div>
                 </div>
              
-
-                <div className="project-lists mt-8 flex  lg:justify-center overflow-scroll whitespace-nowrap scrollbar-hide  border w-[100%] h-[250px] gap-6 py-8 pl-[25px] lg:pl-0 lg:pr-0 last:pr-[20px]">
+                <div  className="caret  mt-4 gap-4 flex justify-end container w-[75%]  ">
+                        <ChevronLeftIcon onClick={scrollLeft} className="w-8 border  rounded-full p-2 cursor-pointer"/>
+                        <ChevronRightIcon onClick={scrollRight} className="w-8 border rounded-full p-2  cursor-pointer"/>
+                    </div>
+                    
+                <div  ref={scrol} className="project-lists mt-4 flex lg:justify-center overflow-scroll whitespace-nowrap scrollbar-hide  border w-[100%] h-[250px] gap-6 py-8 pl-[25px] lg:pl-[270px] lg:pr-0 last:pr-[20px] lg:last:pr-[50px]">
+                    
                     {projectlist.map(proj => (
 
-                        <div key={proj.id} className="project relative overflow-hidden px-[100px]  rounded-md ">
+                        <div key={proj.id} className="project relative overflow-hidden px-[100px]  rounded-md block ">
                             <Image src={proj.pix} className=''
                                 alt='project-thumbnail'
                                 layout='fill'
                                 objectFit='cover'
+                                priority
                             />
-                            <div className="desc flex flex-col space-y-[2px] absolute bottom-0 left-0 right-0 px-4 py-3 rounded-b-md bg-gray-400">
+                            <div className="desc flex flex-col space-y-[2px] absolute bottom-0 left-0 right-0 px-4 py-3 rounded-b-md bg-gray-200">
                                 <p className="text-black text-[0.8rem] font-regular ">{proj.title}</p>
-                                <a href={proj.live} className="text-white font-bold bg-primary w-fit px-2 py-[3px] rounded-md  ">Live Site</a>
+                                <a href={proj.live} target='blank' className="text-white font-medium bg-primary w-fit px-3 py-[3px] rounded-md  ">View</a>
                             </div>
                         </div>
                     ))}
