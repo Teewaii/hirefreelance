@@ -23,7 +23,7 @@ function Projects() {
     //     this.refs.scroller ?(this.refs.scroller.scrollLeft += 80):null; 
     // }
     return (
-        <section className="projects w-screen">
+        <section id="projects" className="projects w-screen border py-16">
             <div className="projects-wrapper  ">
                 <div className="title flex flex-col items-center mb-12 ">
                     <h1 className='text-2xl sm:text-3xl lg:text-4xl text-heading mb-2 lg:mb-4'>Our Projects</h1>
@@ -51,14 +51,14 @@ function Projects() {
                     
                     {projectlist.map(proj => (
 
-                        <div key={proj.id} className="project snap-center relative overflow-hidden px-[100px]  rounded-md block ">
+                        <div key={proj.id} className="project snap-center relative overflow-hidden px-[100px]  rounded-md block  border-4 border-gray-300  ">
                             <Image src={proj.pix} className=''
                                 alt='project-thumbnail'
                                 layout='fill'
                                 objectFit='cover'
                                 priority
                             />
-                            <div className="desc flex flex-col space-y-[2px] absolute bottom-0 left-0 right-0 px-4 py-3 rounded-b-md bg-gray-200">
+                            <div className="desc flex flex-col space-y-[2px] absolute bottom-0 left-0 right-0 px-4 py-3  bg-gray-200">
                                 <p className="text-black text-[0.8rem] font-regular ">{proj.title}</p>
                                 <a href={proj.live} target='blank' className="text-white font-medium bg-primary w-fit px-3 py-[3px] rounded-md  ">View</a>
                             </div>

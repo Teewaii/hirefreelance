@@ -31,8 +31,12 @@ function Nav({ toggle, OpenMenu, setToggle }) {
                             <Link onClick={() => setToggle(true)} activeClass="active" to="values" spy={true} smooth={true} offset={0} duration={300}>About us</Link>
                         </li>
                         <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 '>
-                            <Link onClick={() => setToggle(true)} activeClass="active" to="features" spy={true} smooth={true} offset={0} duration={300}>Blog</Link>
+                            <Link onClick={() => setToggle(true)} activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={300}>Our projects</Link>
                         </li>
+                        <li className='cursor-pointer text-white lg:text-body py-2 pl-12 lg:pl-0 '>
+                            <Link onClick={() => setToggle(true)} activeClass="active" to="features" spy={true} smooth={true} offset={0} duration={300}>Features</Link>
+                        </li>
+                       
 
                     </ul>
                     {/* <ul className='space-y-3  lg:flex lg:space-x-[36px] lg:space-y-0 items-center'>
