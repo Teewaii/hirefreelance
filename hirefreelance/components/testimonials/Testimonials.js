@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 
 function Testimonials() {
     return (
-        <section className="testimonials h-fit pt-[100px] lg:pt-[80px] 2xl:pt-[100px] pb-[200px]  flex flex-col items-center">
+        <section className="testimonials h-fit pt-[70px] lg:pt-[80px] 2xl:pt-[100px] pb-[200px]  flex flex-col items-center">
             <div className="testimonials-wrapper  container flex flex-col items-center text-center ">
                 <div className="title flex flex-col items-center mb-12 ">
                     <h1 className='text-2xl sm:text-3xl lg:text-4xl text-heading mb-2 lg:mb-4'>What our Customers say</h1>
