@@ -42,16 +42,16 @@ function Projects() {
                 </div>
                 </div>
              
-                <div  className="caret  mt-4 gap-4 flex justify-end container w-[75%]  ">
+                <div  className="caret  mt-11 gap-4 flex justify-end container w-[90%] lg:w-[75%]  ">
                         <ChevronLeftIcon onClick={scrollLeft} className="w-8 border  rounded-full p-2 cursor-pointer"/>
                         <ChevronRightIcon onClick={scrollRight} className="w-8 border rounded-full p-2  cursor-pointer"/>
                     </div>
                     
-                <div  ref={scrol} className="project-lists mt-4 flex lg:justify-center overflow-scroll whitespace-nowrap scrollbar-hide  border w-[100%] h-[250px] gap-6 py-8 pl-[25px] lg:pl-[270px] lg:pr-0 last:pr-[20px] lg:last:pr-[50px]">
+                <div  ref={scrol} className="project-lists  flex lg:justify-center overflow-scroll whitespace-nowrap scrollbar-hide   w-[100%] h-[250px] gap-6 py-8 pl-[25px] lg:pl-[270px] lg:pr-0 last:pr-[20px] lg:last:pr-[50px] snap-x snap-mandatory">
                     
                     {projectlist.map(proj => (
 
-                        <div key={proj.id} className="project relative overflow-hidden px-[100px]  rounded-md block ">
+                        <div key={proj.id} className="project snap-center relative overflow-hidden px-[100px]  rounded-md block ">
                             <Image src={proj.pix} className=''
                                 alt='project-thumbnail'
                                 layout='fill'
