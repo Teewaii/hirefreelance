@@ -25,7 +25,7 @@ export default function Home() {
     setToggle(prev => !prev)
   }
   return (
-    <div className='relative'>
+    <div className='relative overflow-hidden'>
       <Head>
         <title>Freelance Hire</title>
         <link rel="icon" href="/favicon.ico" />
