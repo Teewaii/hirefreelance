@@ -44,7 +44,6 @@ module.exports = {
         'service_wmk': "url('/img/serviceWatermark.svg')",
       },
 
-
     },
 
   },

@@ -68,6 +68,90 @@ const Images = [
             "React.js", "TailwindCSS"
         ]
     },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 5,
+        title: "Personal portfolio v2 ",
+        head: "Personal portfolio",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: port,
+        git: 'https://github.com/Teewaii/portfolio2.git',
+        live: 'https://teewaii.github.io/portfolio2/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
 
 ]
 

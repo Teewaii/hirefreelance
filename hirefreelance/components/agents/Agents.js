@@ -9,14 +9,16 @@ import { EllipsisVerticalIcon } from '@heroicons/react/24/solid';
 
 function Agents() {
     return (
-        <section className="agent h-fit py-[95px] lg:py-[100px]  2xl:py-[155px] bg-gradient-to-b from-grad overflow-hidden">
+        <section className="agent h-fit py-[95px] lg:py-[100px]  2xl:py-[155px] bg-gradient-to-b from-grad overflow-hidden relative
+        after:absolute after:bg-service_wmk after:bg-no-repeat after:top-[20%] after:right-0 after:h-[200px] after:w-[200px]
+        ">
             <div className="agents-wrapper flex flex-col items-center container  ">
                 <div className="heading flex flex-col items-center mb-6">
                     <h1 className='text-3xl lg:text-4xl text-heading mb-2 '>Our Featured Agents</h1>
                     <p className='text-[0.8rem] text-body'>Meet our amazing team members</p>
                 </div>
 
-                <div className="agents-card flex lg:items-start lg:justify-center  w-[100%] space-x-10 overflow-scroll scrollbar-hide py-8 px-4 snap-mandatory snap-x">
+                <div className="agents-card flex lg:items-start lg:justify-center  w-[100%] space-x-8 overflow-scroll scrollbar-hide py-8 px-4 snap-mandatory snap-x">
 
                     {/* <div className="agents-card flex justify-center gap-[20px] mt-6 border overflow-auto w-[100%] ">
             */}
