@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 function Features() {
     return (
-        <section id='' className="features h-fit flex items-center border  ">
+        <section id='' className="features h-fit flex items-center   ">
             {/* <section id='' className="features min-h-screen md:h-[40vh] xl:min-h-[70vh] border flex items-center"> */}
             <div className='flex flex-col items-center gap-8 py-20 lg:py-[100px]  container'>
 

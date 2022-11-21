@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <section id='services' className="services h-fit py-[70px] lg:py-[70px]   border
+    <section id='services' className="services h-fit py-[70px] lg:py-[70px]  
    ">
       <div className="services-wrapper flex flex-col items-center  w-[100%]   container
     ">

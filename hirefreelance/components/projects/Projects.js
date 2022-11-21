@@ -23,7 +23,7 @@ function Projects() {
     //     this.refs.scroller ?(this.refs.scroller.scrollLeft += 80):null; 
     // }
     return (
-        <section id="projects" className="projects w-screen border py-16">
+        <section id="projects" className="projects w-screen py-16">
             <div className="projects-wrapper  ">
                 <div className="title flex flex-col items-center mb-12 ">
                     <h1 className='text-2xl sm:text-3xl lg:text-4xl text-heading mb-2 lg:mb-4'>Our Projects</h1>
